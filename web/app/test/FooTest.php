@@ -10,6 +10,6 @@ class FooTest extends TestCase
     public function testGetName()
     {
         $foo = new Foo();
-        $this->assertEquals($foo->getName(), 'Nginx PHP MySQL');
+        $this->assertEquals($foo->getName(), 'to jest nasz przykładowy serwis');
     }
 }
